@@ -15,8 +15,8 @@ jobs:
         with:
           name: 'artifacts'
           path: Workflows/
-          if-no-files-found:
-          compression-level:
-          overwrite:
+          if-no-files-found: warn
+          compression-level: 6
+          overwrite: false
     
   
